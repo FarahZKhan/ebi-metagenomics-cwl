@@ -2,12 +2,12 @@ type: enum
 name: table_type
 label: The type of the table to produce
 symbols:
-  - OTU table
-  - Pathway table
-  - Function table
-  - Ortholog table
-  - Gene table
-  - Metabolite table
-  - Taxon table
+  - OTUtable
+  - Pathwaytable
+  - Functiontable
+  - Orthologtable
+  - Genetable
+  - Metabolitetable
+  - Taxontable
   - Table
 
