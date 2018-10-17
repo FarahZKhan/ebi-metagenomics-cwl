@@ -5,7 +5,10 @@ label: search profile(s) against a sequence database
 requirements:
   ResourceRequirement:
     coresMax: 4
-    ramMin: 1024  # just a default, could be lowered
+    ramMin: 1024
+  DockerRequirement:
+    dockerPull: sglim2/hmmer-3.1b2
+ 
 hints:
   SoftwareRequirement:
     packages:
