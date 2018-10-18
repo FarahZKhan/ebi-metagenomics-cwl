@@ -6,6 +6,7 @@ requirements:
   ResourceRequirement:
     coresMax: 4
     ramMin: 1024
+
   DockerRequirement:
     dockerPull: sglim2/hmmer-3.1b2
 
@@ -55,11 +56,11 @@ $schemas:
  - http://edamontology.org/EDAM_1.16.owl
  - https://schema.org/docs/schema_org_rdfa.html
 
- s:author:
-   - class: s:Person
-     s:id: https://orcid.org/0000-0002-2961-9670
-     s:email: mrc@commonwl.org
-     s:name: Michael R. Crusoe
+s:author:
+ - class: s:Person
+   s:id: https://orcid.org/0000-0002-2961-9670
+   s:email: mrc@commonwl.org
+   s:name: Michael R. Crusoe
 
 s:license: "https://www.apache.org/licenses/LICENSE-2.0"
 s:copyrightHolder: "EMBL - European Bioinformatics Institute"
